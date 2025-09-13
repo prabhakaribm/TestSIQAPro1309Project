@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/prabhakaribm
   gitUsername: prabhakaribm
   gitBranch: main
+- name: TPP_services_in_FCS
+  gitServerName: prabhakaribm
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: prabhakaribm
+  gitBranch: main
