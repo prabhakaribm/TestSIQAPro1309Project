@@ -8,7 +8,23 @@ packages:
   gitUsername: prabhakaribm
   gitBranch: main
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: prabhakaribm
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: prabhakaribm
   gitBranch: main
+services:
+- serviceName: project.testsiqapro1309.integrations:TPP_DAF
+  packages:
+  - name: TestSIQAPro1309Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: services:addInts
+  packages:
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
