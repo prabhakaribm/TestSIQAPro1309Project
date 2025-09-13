@@ -14,7 +14,7 @@ packages:
   gitUsername: prabhakaribm
   gitBranch: main
 services:
-- serviceName: project.testsiqapro1309.integrations:TPP_DAF
+- serviceName: project.testsiqapro1309.integrations:Copy_TPP_DAF
   packages:
   - name: TestSIQAPro1309Project
     version: "1.0"
@@ -28,3 +28,9 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2070
+- serviceName: project.testsiqapro1309.integrations:TPP_DAF
+  packages:
+  - name: TestSIQAPro1309Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
